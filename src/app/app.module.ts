@@ -6,11 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ProductComponent } from './components/product/product.component';
-import { ProductOfferComponent } from './components/product-offer/product-offer.component';
-import { ProductUpdatesComponent } from './components/product-updates/product-updates.component';
-import { FeedbackComponent } from './components/feedback/feedback.component';
-import { RatingComponent } from './components/rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +13,6 @@ import { RatingComponent } from './components/rating/rating.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    ProductComponent,
-    ProductOfferComponent,
-    ProductUpdatesComponent,
-    FeedbackComponent,
-    RatingComponent
   ],
   imports: [
     BrowserModule,
